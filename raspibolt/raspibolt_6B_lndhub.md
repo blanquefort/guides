@@ -121,13 +121,13 @@ $ wget https://nodejs.org/dist/v10.15.1/node-v10.15.1-linux-armv7l.tar.xz
 ```
 Extract to `usr/local/lib`
 ```
-$ sudo mkdir /usr/local/lib/nodejs/node-v10.15.1
-$ sudo tar -xf node-v10.15.1-linux-armv7l.tar.xz -C /usr/local/lib/nodejs/node-v10.15.1
+$ sudo mkdir /usr/local/lib/nodejs/
+$ sudo tar -xf node-v10.15.1-linux-armv7l.tar.xz -C /usr/local/lib/nodejs/
 ```
 Link node version into `/usr/local/bin`
 ```
-$ sudo ln -s /usr/local/lib/nodejs/node-v10.15.1/bin/node /usr/local/bin/node
-$ sudo ln -s /usr/local/lib/nodejs/node-v10.15.1/bin/npm /usr/local/bin/npm
+$ sudo ln -s /usr/local/lib/nodejs/node-v10.15.1-linux-armv7l/bin/node /usr/local/bin/node
+$ sudo ln -s /usr/local/lib/nodejs/node-v10.15.1-linux-armv7l/bin/npm /usr/local/bin/npm
 ```
 Test node & npm is linked correctly
 ```
